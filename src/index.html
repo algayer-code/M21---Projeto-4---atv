@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- scss -->
+    <link rel="stylesheet" href="styles/main.scss">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- hero -->
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Meu próximo aniversário será em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua Aleatoria - nº 2004 - Porto Velho
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Preço</b>
+                        R$ 50,00
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        09/01/2026 a partir das 16h
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Marque sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="event event--festa" >
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Sobre a festa
+                </h2>
+                <p class="event__details__description">
+                    A festa de aniversário foi incrível! A decoração estava cheia de cores e balões, criando um ambiente alegre e festivo. As pessoas se divertiram muito, com música animada e jogos para todos. O bolo estava delicioso, com um sabor que todos adoraram. As risadas e a energia positiva estavam no ar, e todos aproveitaram cada momento, conversando e se divertindo juntos. Foi uma celebração cheia de carinho, amizade e muitos momentos especiais!
+                </p>
+            </div>
+            <img class="event__image" src="./images/Pessoas-Bolo.png" alt="Pessoas na frente de um bolo">
+        </div>
+    </section>
+    <section class="event event--comemorando event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">
+                    Comemorando
+                </h2>
+                <p class="event__details__description">
+                    A comemoração foi maravilhosa! O lugar estava todo decorado com muito capricho, criando uma atmosfera acolhedora e alegre. Todos se reuniram para celebrar, compartilhando risadas e bons momentos. Havia música animada, e todos se divertiram com as atividades planejadas. As conversas fluíam facilmente, e a energia positiva contagiava a todos. Foi um evento cheio de alegria, amizade e celebração, deixando lembranças inesquecíveis para quem participou.
+                </p>
+            </div>
+            <img class="event__image" src="./images/comemorando.png" alt="Amigos comemorando">
+        </div>
+    </section>
+
+
+
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- js -->
+    <script src="scripts/main.js"></script>
+</body>
+</html>
